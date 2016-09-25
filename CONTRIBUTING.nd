@@ -1,0 +1,40 @@
+## Repository contents
+
+This repository consists of the following artifacts:
+
+* Current and past threat models for privacy in Bitcoin wallet clients. There is one threat model per report.
+* Copies of reports, which detail our findings when applying our threat model to a variety of Bitcoin wallet clients using the report's threat model.
+* Supporting code and documentation related to the threat model, scoring process, etc.
+
+## Developmental Process
+
+This document outlines guidelines for how changes are made to this project.
+
+### Roles
+
+There are three possible roles in the development process:
+
+1. Outside parties
+2. OBPP Contributors
+3. Repository Maintainers/Owners
+
+#### Current Contributors working on this repository:
+* [Kristov Atlas](https://github.com/kristovatlas)
+* [Justus Ranvier](https://github.com/justusranvier)
+* [Craig Watkins](https://github.com/crwatkins)
+* [Daniel Cousens](https://github.com/dcousens)
+
+#### Current Maintainers/Owners
+* [Kristov Atlas](https://github.com/kristovatlas)
+* [Justus Ranvier](https://github.com/justusranvier)
+
+### Process for changes
+
+1. The project is stored publicly at: https://github.com/OpenBitcoinPrivacyProject/wallet-ratings
+2. Anyone, including outside parties MAY propose a change to the wallet-ratings repository by submitting a pull request. Issues may also created to discuss topics related to these changes.
+3. Changes to the repository MUST be discussed in one of our weekly, online meetings before they can be merged.
+4. Changes MUST be approved by at least two OBPP Contributors, including the author of a proposed change.
+5. Contributors have until the next weekly meeting to raise a concern about an open pull request, after which time it MAY be merged into an active branch.
+6. Only Maintainers of the project are able to merge pull requests.
+7. Once reports are finalized, they can only be updated to new versions if a mistake was made in the body of the report.
+8. Each report produced as part of this project has a series of "change freeze" dates. (See: repository milestones.) These change freeze milestones SHOULD be respected in order to achieve consistent progress in producing new reports.
